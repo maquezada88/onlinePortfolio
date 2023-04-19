@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>24 Game</title>
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <script  src="game.js"></script>
+  </head>
+
+
+  <body>
+    <header>
+      <h1 >My Website</h1>
+    </header>
+ 
+    <main>
+        <input id ='ready' type="button" onclick="ready()" value="ready">
+    </main>
+
+        <p>
+          Welcome to 24! Use a sequence of available math operations to get 24!
+        </p>
+        <p>
+          Click refresh to restart!
+        </p>
+            <div class="numbers">
+              <button id="num0" onclick="setNum(this)">0</button>
+              <button id="num1" onclick="setNum(this)">1</button>
+              <button id="num2" onclick="setNum(this)">2</button>
+              <button id="num3" onclick="setNum(this)">3</button>
+            </div>
+
+            <div class="ops">
+              <button id="add" onclick="setOp('+')">+</button>
+              <button id="sub" onclick="setOp('-')">-</button>
+              <button id="mult" onclick="setOp('*')">x</button>
+              <button id="div" onclick="setOp('/')">/</button>
+            </div>
+  </body>
+    <footer>
+      <p>Copyright © 2023 24 Website</p>
+    </footer>
+</html>
