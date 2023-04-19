@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Martin's Online portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <section id="home">
+            <div class="main">
+                <h1 class="heading">I AM <br> MARTIN QUEZADA</h1>
+                <button class="btn">
+                    Hire Me
+                </button>
+            </div>
+        </section>
+
+        <section id="about">
+            <h1 class="headings">ABOUT ME</h1>
+            <div id="pic">
+                <img src="ghpic.png" alt="">
+                <div id="intro">
+                    <h2>Martin Quezada</h2>
+                    <p>I am a computer science graduate from James Madison University who is looking forward to kickstart their software engineering career. 
+                        I also have an AS in computer science from Noerthern Virginia Community College where I graduated with a Pathways Scholarship. 
+                        I am most comfortable coding in Java and python, but love to learn new leanguages and technologies! 
+                        My favorite courses I learned about were Algorithms and Data Structures, Computational Geometry, and Database Management! 
+                        Safe to say I love learning about concepts that can be applied to real world problems and solutions. 
+                        In addition, I am also Oracle Cloud Infrastructure Foundation certified, and have completed Cisco's and 
+                        J.P. Morgan's virtual experience on Forage. My current favorite hobbies are working out, video games, watching anime, 
+                        and experiementing with new programming languages!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1 class="headings">Projects</h1>
+                <div class="row">
+                    <div class="box">
+                        <h1 class="headings">24</h1>
+                            <p>
+                                A mathematical game programmed in python where the user uses basic arithmetic to get the sum of 24 with 4 given numbers. 
+                                The set of numbers are stored in a json file, and are retrieved based on the difficulty (easy, medium, hard) the user decides upon.
+                                 A random number is used to select out of the 5 set of numbers each difficulty contains. 
+                                This was my first program coded in python on my own, and is primarily focused on modularity, OOP, and safe practices in order to get to know the language. 
+                                There is a Java version on github to get an understanding of how I was going to implement it. 
+                                There is also a responsive web app based on this program in html, css, and javascript. <a href="game/game.html">Check it out here.</a>
+                            </p>
+                    </div>
+
+                    <div class="box">
+                        <h1 class="headings">Server-Client</h1>
+                            <p>
+                               A program that consists of a server and a client. The server receives requests from a UPD transport 
+                               layer protocol. The program then reads the requests and applies proper arithmetic in order to send the result to the client.
+                               the result is then displayed on the clients side at the end of the program. This code is to show how servers and clients interact,
+                               and how requests behave and interact with one another.
+                            </p>
+                    </div>
+                </div>
+        </section>
+
+        <section id="contact">
+            <he class="headings">Contact</he>
+            <li>
+                <a id="socials" href="mailto:maquezada88@gmail.com">Click here to email me</a>   
+            </li>
+            <li>
+                <a id="socials" href="https://github.com/maquezada88"  class="fa fa-github" target="_blank" rel="noopener noreferrer">: GITHUB</a>
+            </li>
+            <li>
+                <a  id="socials" href="https://www.linkedin.com/in/maquezada88/" class="fa fa-linkedin" target="_blank" rel="noopener noreferrer">: LINKEDIN</a>
+            </li>
+            <form action="" class="form">
+                <input type="text" name="name" class="input" placeholder="Enter your name">
+                <input type="email" name="email" class="input" placeholder="Enter your email">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                <input type="submit" value="SEND" id="send">
+            </form>
+            
+        </section>
+    </body>
+</html>
