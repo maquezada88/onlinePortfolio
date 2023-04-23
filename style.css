@@ -48,7 +48,7 @@ html{
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 850px;
+    height: 800px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -59,11 +59,11 @@ html{
     position: absolute;
     top: 0;
     right: 0;
-    background: url('dahlia.jpeg') no-repeat center center/cover;
-    height: 900px;
+    background: url('media/dahlia.jpeg') no-repeat center center/cover;
+    height: 800px;
     width: 100%;
     z-index: -1;
-    opacity: 0.7;
+    opacity: 0.6;
 
 }
 
@@ -73,7 +73,7 @@ html{
     border: 1px solid white;
     align-items: center;
     position: absolute;
-    top: 30%;
+    top: 25%;
     right: 10%;
 }
 
@@ -121,12 +121,35 @@ html{
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 10px;
+    padding: 30px;
 }
 
 #intro h2{
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    align-items: center;
+    padding: 20px;
+    height: 500px
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
 }
 
 #projects{
@@ -134,6 +157,7 @@ html{
     flex-direction: column;
     text-align: center;
     padding: 20px;
+    height: 500px;
 }
 
 .row{
